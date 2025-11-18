@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" data-theme="discord">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Discord Archive Browser</title>
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CoCJ0wPx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D1pwr_B7.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Ba48d7px.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B5KRQfIH.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CQfXfcvU.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CDv9raoO.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_18840hd = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/archives"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CoCJ0wPx.js"),
+						import("./_app/immutable/entry/app.CQfXfcvU.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
