@@ -1,1 +1,1 @@
-export const env={}
+export const env={"PUBLIC_GITHUB_REPO_URL":"","PUBLIC_GITHUB_PAT":"","PUBLIC_GITHUB_BRANCH":"main"}
