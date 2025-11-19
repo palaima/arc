@@ -1,1 +1,1 @@
-export const env={}
+export const env={"PUBLIC_GITHUB_REPO_URL":"palaima/arc-storage","PUBLIC_GITHUB_BRANCH":"master"}
